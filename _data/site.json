@@ -1,0 +1,19 @@
+{
+    "name": "Website Name",
+    "description": "Eleventy 2.0.1 simple template with Liquid templating & Decap CMS.",
+    "github": "https://github.com/mobile-michel/12-simple-template",
+    "authorName": "Michel Maillard",
+    "authorUrl": "https://michelmaillard.ch/",
+    "favicon": "/assets/img/favicon.png",
+    "css1": "/assets/css/style.css",
+    "css2": "/assets/css/awsm.css",
+    "css3": "/assets/css/bahunya.css",
+    "css4": "/assets/css/classless.css",
+    "css5": "/assets/css/magick.css",
+    "css6": "/assets/css/marx.css",
+    "css7": "/assets/css/mvp.css",
+    "css8": "/assets/css/no-class.css",
+    "css9": "/assets/css/ok.css",
+    "css10": "/assets/css/pico.css",
+    "css11": "/assets/css/simple.css"
+}
