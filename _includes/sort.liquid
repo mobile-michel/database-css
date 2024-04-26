@@ -1,0 +1,24 @@
+There are {{ stylesheet.size }} frameworks in this list
+<table>
+    <thead>
+      <tr>
+        <th>framework</th>
+        <th>html5</th>
+        <th>nav</th>
+        <th>Github</th>
+        <th>CSS</th>
+        <th>footer</th>
+      </tr>
+    </thead>
+    {% assign items = css | sort: 'landmarks' | reverse %}
+      {% for item in items %}
+      <tr>
+        <td><a href="{{ item.website | url }}" target="_new">{{ item.name }}</a></td>
+        <td><a href="/list/demo1/{{ item.name | slugify | url }}">{{item.landmarks}}%</a></td>
+        <td>{{ item.nav }}</td>
+        <td><a href="{{ item.github }}" target="_new">github</a></td>
+        <td><a href="{{ 'assets/css/' item.name '.css' | url }}">CSS</a></td>
+        <td>{{ item.footer }}</td>
+      </tr>
+{% endfor %}
+</table>

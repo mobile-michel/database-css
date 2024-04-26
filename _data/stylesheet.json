@@ -97,6 +97,8 @@
     },
     {
         "name": "github-markdown",
+        "website": "https://sindresorhus.com/github-markdown-css/",
+        "github": "https://github.com/sindresorhus/github-markdown-css",
         "landmarks": 0,
         "landmarks-name": false,
         "nav": false
@@ -143,6 +145,8 @@
     },
     {
         "name": "md-air",
+        "website": "http://markdowncss.github.io/air",
+        "github": "https://github.com/markdowncss/air",
         "landmarks": 0,
         "landmarks-name": false,
         "nav": false
@@ -157,6 +161,8 @@
     },
     {
         "name": "minimal-stylesheet",
+        "website": "https://chr15m.github.io/minimal-stylesheet",
+        "github": "https://github.com/chr15m/minimal-stylesheet",
         "landmarks": 0,
         "landmarks-name": false,
         "nav": false
@@ -171,6 +177,8 @@
     },
     {
         "name": "mu",
+        "website": "https://bafs.github.io/mu",
+        "github": "https://github.com/BafS/mu",
         "landmarks": 0,
         "landmarks-name": false,
         "nav": false
@@ -185,6 +193,8 @@
     },
     {
         "name": "neat",
+        "website": "https://neat.joeldare.com/",
+        "github": "https://github.com/codazoda/neatcss",
         "landmarks": 0,
         "landmarks-name": false,
         "nav": false
@@ -208,7 +218,7 @@
     {
         "name": "ok",
         "website": "https://okcss.netlify.app/",
-        "github": false,
+        "github": "https://github.com/andrewh0/okcss",
         "landmarks": 100,
         "landmarks-name": "header, nav, main, aside, section, article, footer",
         "nav": "flat"
@@ -277,12 +287,16 @@
     },
     {
         "name": "vanilla",
+        "website": "https://vanillaframework.io/",
+        "github": "https://github.com/canonical/vanilla-framework",
         "landmarks": 14,
         "landmarks-name": "header",
         "nav": false
     },
     {
         "name": "w3c-traditional",
+        "website": "https://www.w3schools.com/w3css/",
+        "github": "https://github.com/JaniRefsnes/w3css",
         "landmarks": 14,
         "landmarks-name": "header",
         "nav": false
