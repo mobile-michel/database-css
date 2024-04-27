@@ -7,17 +7,14 @@ const totalCoverage = document.getElementById("total-coverage");
 const codeSnippetStyle = document.getElementById("code-snippet-style");
 
 const elements = [
-  "body",
-  "article",
-  "section",
-  "nav",
-  "aside",
+  // Sections
   "h1",
   "h2",
   "h3",
   "h4",
   "h5",
   "h6",
+  // Grouping content
   "p",
   "address",
   "hr",
@@ -31,8 +28,7 @@ const elements = [
   "dd",
   "figure",
   "figcaption",
-  "main",
-  "div",
+  // Text-level semantics
   "a",
   "em",
   "strong",
@@ -61,11 +57,12 @@ const elements = [
   "mark",
   "bdi",
   "bdo",
-  "span",
   "br",
   "wbr",
+  // Edits
   "ins",
   "del",
+  // Embedded content
   "picture",
   "source",
   "img",
@@ -80,6 +77,7 @@ const elements = [
   "area",
   "math",
   "svg",
+  // Tabular data
   "table",
   "caption",
   "colgroup",
@@ -90,6 +88,7 @@ const elements = [
   "tr",
   "td",
   "th",
+  // Forms
   "form",
   "label",
   "input",
@@ -107,6 +106,10 @@ const elements = [
   "details",
   "summary",
   "dialog",
+  // Scripting
+  "script",
+  "noscript",
+  "template",
   "canvas"
 ];
 

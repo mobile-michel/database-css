@@ -1,4 +1,5 @@
 [
+    // Sections
     "body",
     "article",
     "section",
@@ -10,6 +11,9 @@
     "h4",
     "h5",
     "h6",
+    "header",
+    "footer",
+    // Grouping content
     "p",
     "address",
     "hr",
@@ -25,6 +29,7 @@
     "figcaption",
     "main",
     "div",
+    // Text-level semantics
     "a",
     "em",
     "strong",
@@ -56,8 +61,10 @@
     "span",
     "br",
     "wbr",
+    // Edits
     "ins",
     "del",
+    // Embedded content
     "picture",
     "source",
     "img",
@@ -72,6 +79,7 @@
     "area",
     "math",
     "svg",
+    // Tabular data
     "table",
     "caption",
     "colgroup",
@@ -82,6 +90,7 @@
     "tr",
     "td",
     "th",
+    // Forms
     "form",
     "label",
     "input",
@@ -96,8 +105,13 @@
     "meter",
     "fieldset",
     "legend",
+    // Interactive elements
     "details",
     "summary",
     "dialog",
+    // Scripting
+    "script",
+    "noscript",
+    "template",
     "canvas"
 ]

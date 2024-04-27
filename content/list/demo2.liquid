@@ -1,7 +1,7 @@
 ---
 title: Demo
 pagination:
-  data: test
+  data: stylesheet
   size: 1
   alias: html
 permalink: list/demo2/{{ html.name | slug }}/index.html
@@ -48,8 +48,9 @@ permalink: list/demo2/{{ html.name | slug }}/index.html
       <h3>HTML elements</h3>
       <p>This is inside an <code>article</code> semantic HTML element</p>
       <ul>
-        <li><strong>section elements</strong>: {{ html.landmarks }}%</li>
+        <li><strong>landmarks elements</strong>: {{ html.landmarks }}%</li>
         <li><strong>elements name</strong>: {{ html.landmarks-name }}</li>
+        <li><strong>HTML elements</strong>: {{ html.html-elements }}%</li>
         <li><strong>stylesheet</strong>: <a href="/assets/css/{{ html.name }}.css" target="_blank">/assets/css/{{ html.name }}.css</a></li>
         <li><strong>header</strong>: {{ html.header }}</li>
         <li><strong>primary navigation</strong>: {{ html.nav }}</li>

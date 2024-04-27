@@ -1,0 +1,50 @@
+---
+title: Third Demo
+description: This is the third demo with 8 ARIA landmarks
+pagination:
+  data: stylesheet
+  size: 1
+  alias: html
+permalink: list/demo3/{{ html.name | slug }}/index.html
+aside: true
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ html.name }}</title>
+  <link rel="stylesheet" href="/assets/css/{{ html.name }}.css">
+  <link rel="stylesheet" href="/assets/css/ccolors.css">
+</head>
+
+<body>
+  <header>
+    {% include 'nav-primary' %}
+    <h1>{{ site.name }}</h1>
+  </header>
+  <main>
+    {% if aside %}
+    <aside>
+      {% include 'nav-secondary' %}
+    </aside>
+    {% endif %}
+    <section aria-labelledby="{{ title | slugify }}">
+      <h2 id="{{ title | slugify }}">{{ title }}</h2>
+      {% if description %}<p>{{ description }}</p>{% endif %}
+      {{ content }}
+    </section>
+    <article>
+      <h3>Article One</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae fugit excepturi minima laborum, eos tempore doloribus quisquam soluta, quidem dicta optio! Dolor voluptates recusandae debitis pariatur iure maiores eum repellat.</p>
+    </article>
+  </main>
+  <footer>
+    {% include 'nav-footer' %}
+    {% include 'copyright' %}
+  </footer>
+
+</body>
+
+</html>
