@@ -3,18 +3,18 @@
         "name": "a11yana",
         "website": "https://a11yana.com/",
         "github": "https://github.com/alexandersandberg/a11yana",
-        "landmarks": 50,
+        "landmarks": 43,
         "landmarks-name": "header, nav, main",
-        "html-elements": 52,
+        "html-elements": 55,
         "nav": "block"
     },
     {
         "name": "almond",
         "website": "https://alvaromontoro.github.io/almond.css/",
         "github": "https://github.com/alvaromontoro/almond.css",
-        "landmarks": 13,
+        "landmarks": 0,
         "landmarks-name": false,
-        "html-elements": 72,
+        "html-elements": 80,
         "nav": false
     },
     {
@@ -23,7 +23,7 @@
         "github": "https://github.com/schollz/awsm.css",
         "landmarks": 100,
         "landmarks-name": "header, nav, main, aside, section, article, footer",
-        "html-elements": 47,
+        "html-elements": 52,
         "nav": "flat"
     },
     {
@@ -32,7 +32,7 @@
         "github": "https://github.com/ruanmartinelli/axist",
         "landmarks": 0,
         "landmarks-name": false,
-        "html-elements": 36,
+        "html-elements": 40,
         "nav": false
     },
     {
@@ -41,25 +41,25 @@
         "github": "https://github.com/kimeiga/bahunya",
         "landmarks": 100,
         "landmarks-name": "header, nav, main, aside, section, article, footer",
-        "html-elements": 52,
+        "html-elements": 57,
         "nav": "top fixed"
     },
     {
         "name": "bamboo",
         "website": "https://rilwis.github.io/bamboo/",
         "github": "https://github.com/rilwis/bamboo",
-        "landmarks": 25,
+        "landmarks": 14,
         "landmarks-name": "main",
-        "html-elements": 57,
+        "html-elements": 63,
         "nav": false
     },
     {
         "name": "caramel",
         "website": false,
         "github": "https://github.com/caramelcss/caramel",
-        "landmarks": 63,
+        "landmarks": 57,
         "landmarks-name": "header, nav, main, footer",
-        "html-elements": 44,
+        "html-elements": 48,
         "nav": "flat"
     },
     {
@@ -68,43 +68,43 @@
         "github": "https://github.com/emareg/classlesscss",
         "landmarks": 100,
         "landmarks-name": "header, nav, main, aside, section, article, footer",
-        "html-elements": 55,
+        "html-elements": 60,
         "nav": "responsive top fixed"
     },
     {
         "name": "clmaterial",
         "website": false,
         "github": "https://github.com/24aitor/CLMaterial",
-        "landmarks": 38,
+        "landmarks": 29,
         "landmarks-name": "section, footer",
-        "html-elements": 33,
+        "html-elements": 35,
         "nav": false
     },
     {
         "name": "concrete",
         "website": "https://concrete.style/",
         "github": "https://github.com/louismerlin/concrete.css",
-        "landmarks": 63,
+        "landmarks": 57,
         "landmarks-name": "header, main, section, footer",
-        "html-elements": 26,
+        "html-elements": 28,
         "nav": false
     },
     {
         "name": "gd",
         "website": "https://gdcss.netlify.app/",
         "github": "https://github.com/hawkz/gdcss",
-        "landmarks": 88,
+        "landmarks": 86,
         "landmarks-name": "header, nav, main, section, article, footer",
-        "html-elements": 72,
+        "html-elements": 78,
         "nav": "flat"
     },
     {
         "name": "generic",
         "website": "https://mattduck.github.io/generic-css/",
         "github": "https://github.com/mattduck/generic-css",
-        "landmarks": 50,
+        "landmarks": 43,
         "landmarks-name": "header, nav, main",
-        "html-elements": 40,
+        "html-elements": 43,
         "nav": "block"
     },
     {
@@ -113,34 +113,34 @@
         "github": "https://github.com/sindresorhus/github-markdown-css",
         "landmarks": 0,
         "landmarks-name": false,
-        "html-elements": 34,
+        "html-elements": 37,
         "nav": false
     },
     {
         "name": "holiday",
         "website": "https://holidaycss.js.org/",
         "github": "https://github.com/EvgenyOrekhov/holiday.css",
-        "landmarks": 63,
+        "landmarks": 57,
         "landmarks-name": "header, nav, main, footer",
-        "html-elements": 65,
+        "html-elements": 71,
         "nav": "flat"
     },
     {
         "name": "latex",
         "website": "https://latex.vercel.app/",
         "github": "https://github.com/vincentdoerig/latex-css",
-        "landmarks": 50,
+        "landmarks": 43,
         "landmarks-name": "nav, main, article",
-        "html-elements": 40,
+        "html-elements": 43,
         "nav": "block"
     },
     {
         "name": "lissom",
         "website": "https://lissomware.github.io/css/",
         "github": "https://github.com/lissomware/css",
-        "landmarks": 25,
+        "landmarks": 14,
         "landmarks-name": "main",
-        "html-elements": 37,
+        "html-elements": 41,
         "nav": false
     },
     {
@@ -149,16 +149,16 @@
         "github": "https://github.com/wintermute-cell/magick.css",
         "landmarks": 100,
         "landmarks-name": "header, nav, main, aside, section, article, footer",
-        "html-elements": 41,
+        "html-elements": 44,
         "nav": "flat"
     },
     {
         "name": "marx",
         "website": "https://mblode.github.io/marx/",
         "github": "https://github.com/mblode/marx",
-        "landmarks": 88,
+        "landmarks": 100,
         "landmarks-name": "header, nav, main, aside, section, article, footer",
-        "html-elements": 58,
+        "html-elements": 63,
         "nav": "block"
     },
     {
@@ -174,9 +174,9 @@
         "name": "mercury",
         "website": "https://wmeredith.github.io/MercuryCSS/",
         "github": "https://github.com/wmeredith/MercuryCSS",
-        "landmarks": 13,
+        "landmarks": 0,
         "landmarks-name": false,
-        "html-elements": 41,
+        "html-elements": 45,
         "nav": false
     },
     {
@@ -185,16 +185,16 @@
         "github": "https://github.com/chr15m/minimal-stylesheet",
         "landmarks": 0,
         "landmarks-name": false,
-        "html-elements": 15,
+        "html-elements": 16,
         "nav": false
     },
     {
         "name": "missing",
         "website": "https://missing.style/",
         "github": "https://github.com/bigskysoftware/missing",
-        "landmarks": 88,
+        "landmarks": 86,
         "landmarks-name": "header, main, aside, section, footer",
-        "html-elements": 72,
+        "html-elements": 77,
         "nav": ".navbar class"
     },
     {
@@ -203,7 +203,7 @@
         "github": "https://github.com/BafS/mu",
         "landmarks": 0,
         "landmarks-name": false,
-        "html-elements": 20,
+        "html-elements": 22,
         "nav": false
     },
     {
@@ -212,7 +212,7 @@
         "github": "https://github.com/andybrewer/mvp/",
         "landmarks": 100,
         "landmarks-name": "header, nav, main, aside, section, article, footer",
-        "html-elements": 48,
+        "html-elements": 53,
         "nav": "flat"
     },
     {
@@ -221,16 +221,16 @@
         "github": "https://github.com/codazoda/neatcss",
         "landmarks": 0,
         "landmarks-name": false,
-        "html-elements": 16,
+        "html-elements": 17,
         "nav": false
     },
     {
         "name": "new",
         "website": "https://newcss.net/",
         "github": "https://github.com/xz/new.css",
-        "landmarks": 88,
+        "landmarks": 86,
         "landmarks-name": "header",
-        "html-elements": 60,
+        "html-elements": 65,
         "nav": false
     },
     {
@@ -239,7 +239,7 @@
         "github": "https://github.com/davidpaulsson/no-class",
         "landmarks": 100,
         "landmarks-name": "header, nav, main, aside, section, article, footer",
-        "html-elements": 63,
+        "html-elements": 71,
         "nav": "flat"
     },
     {
@@ -248,7 +248,7 @@
         "github": "https://github.com/andrewh0/okcss",
         "landmarks": 100,
         "landmarks-name": "header, nav, main, aside, section, article, footer",
-        "html-elements": 75,
+        "html-elements": 84,
         "nav": "flat"
     },
     {
@@ -257,7 +257,7 @@
         "github": "https://github.com/picocss/pico",
         "landmarks": 100,
         "landmarks-name": "header, nav, main, aside, section, article, footer",
-        "html-elements": 69,
+        "html-elements": 78,
         "nav": "flat"
     },
     {
@@ -266,16 +266,16 @@
         "github": "https://github.com/oxalorg/sakura",
         "landmarks": 0,
         "landmarks-name": false,
-        "html-elements": 38,
+        "html-elements": 42,
         "nav": false
     },
     {
         "name": "silicon",
         "website": "https://silicon-css.com/",
         "github": "https://github.com/tygzy/silicon",
-        "landmarks": 50,
+        "landmarks": 43,
         "landmarks-name": "nav, aside, footer",
-        "html-elements": 48,
+        "html-elements": 51,
         "nav": "block"
     },
     {
@@ -284,7 +284,7 @@
         "github": "https://github.com/kevquirk/simple.css",
         "landmarks": 100,
         "landmarks-name": "header, nav, main, aside, section, article, footer",
-        "html-elements": 54,
+        "html-elements": 58,
         "header": "full with blue background",
         "nav": "responsive buttons",
         "main": "body display: grid",
@@ -299,61 +299,61 @@
         "github": "https://github.com/susam/spcss",
         "landmarks": 0,
         "landmarks-name": false,
-        "html-elements": 23,
+        "html-elements": 26,
         "nav": false
     },
     {
         "name": "superstylin",
         "website": "https://superstylin.caiogondim.com/",
         "github": false,
-        "landmarks": 13,
+        "landmarks": 0,
         "landmarks-name": false,
-        "html-elements": 39,
+        "html-elements": 42,
         "nav": false
     },
     {
         "name": "tacit",
         "website": "https://yegor256.github.io/tacit/",
         "github": "https://github.com/yegor256/tacit",
-        "landmarks": 88,
+        "landmarks": 86,
         "landmarks-name": "header, nav, aside, section, article, footer",
-        "html-elements": 56,
+        "html-elements": 62,
         "nav": "flat"
     },
     {
         "name": "vanilla",
         "website": "https://vanillaframework.io/",
         "github": "https://github.com/canonical/vanilla-framework",
-        "landmarks": 25,
+        "landmarks": 14,
         "landmarks-name": "header",
-        "html-elements": 48,
+        "html-elements": 52,
         "nav": false
     },
     {
         "name": "w3c-traditional",
         "website": "https://www.w3schools.com/w3css/",
         "github": "https://github.com/JaniRefsnes/w3css",
-        "landmarks": 25,
+        "landmarks": 14,
         "landmarks-name": "header",
-        "html-elements": 62,
+        "html-elements": 69,
         "nav": false
     },
     {
         "name": "water",
         "website": "https://watercss.kognise.dev/",
         "github": "https://github.com/kognise/water.css",
-        "landmarks": 25,
+        "landmarks": 14,
         "landmarks-name": "footer",
-        "html-elements": 35,
+        "html-elements": 38,
         "nav": false
     },
     {
         "name": "writ",
         "website": "https://writ.cmcenroe.me/",
         "github": "https://github.com/programble/writ",
-        "landmarks": 63,
+        "landmarks": 71,
         "landmarks-name": "header, nav, main, aside, footer",
-        "html-elements": 37,
+        "html-elements": 41,
         "nav": "flat"
     }
 ]

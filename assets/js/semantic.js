@@ -13,7 +13,6 @@ const elements = [
   "aside",
   "section",
   "article",
-  "form",
   "footer"
 ];
 
