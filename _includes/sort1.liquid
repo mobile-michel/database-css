@@ -14,9 +14,9 @@ There are {{ stylesheet.size }} frameworks in this list
     {% assign items = css | sort: 'html-elements' | reverse %}
       {% for item in items %}
       <tr>
-        <td><a href="{{ item.website | url }}" target="_new">{{ item.name }}</a></td>
-        <td><a href="/list/demo1/{{ item.name | slugify | url }}">{{item.landmarks}}%</a></td>
-        <td><a href="/list/demo3/{{ item.name | slugify | url }}">{{item.html-elements}}%</a></td>
+        <td><a href="{{ item.website | url }}" target="_new">{{ item.name }}</a><br><a href="/list/demo1/{{ item.name | slugify | url }}">demo1</a> <a href="/list/demo2/{{ item.name | slugify | url }}">demo2</a> <a href="/list/demo3/{{ item.name | slugify | url }}">demo3</a></td>
+        <td>{{item.landmarks}}%</td>
+        <td>{{item.html-elements}}%</td>
         <td>{{ item.landmarks-name }}</td>
         <td>{{ item.nav }}</td>
         <td><a href="{{ item.github }}" target="_new">github</a></td>

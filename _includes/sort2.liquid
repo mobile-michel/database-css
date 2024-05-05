@@ -12,13 +12,14 @@ There are {{ stylesheet.size }} frameworks in this list
     </thead>
     {% assign items = css | sort: 'landmarks' | reverse %}
       {% for item in items %}
-      <tr>
-        <td><a href="{{ item.website }}" target="_new">{{ item.name }}</a></td>
-        <td><a href="/list/demo2/{{ item.name | slugify | url }}">{{item.landmarks}}%</a></td>
-        <td>{{ item.nav }}</td>
-        <td>{{ item.header }}</td>
-        <td>{{ item.main }}</td>
-        <td>{{ item.footer }}</td>
-      </tr>
-{% endfor %}
-</table>
+        <tr>
+          <td><a href="{{ item.website | url }}" target="_new">{{ item.name }}</a></td>
+          <td><a href="/list/demo1/{{ item.name | slugify | url }}">{{item.landmarks}}%</a></td>
+          <td><a href="/list/demo3/{{ item.name | slugify | url }}">{{item.html-elements}}%</a></td>
+          <td>{{ item.landmarks-name }}</td>
+          <td>{{ item.nav }}</td>
+          <td><a href="{{ item.github }}" target="_new">github</a></td>
+          <td><a href="/assets/css/{{ item.name }}.css">CSS</a></td>
+        </tr>
+  {% endfor %}
+  </table>

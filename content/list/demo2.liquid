@@ -38,6 +38,7 @@ permalink: list/demo2/{{ html.name | slug }}/index.html
           </ul>
         </nav>
       </aside>
+      {% include 'pagination' %}
       <h2 id="{{ title | slugify }}">{{ title }}</h2>
       <p>This is inside a <code>section</code> HTML element.</p>
       <p>{{ html.description }}</p>

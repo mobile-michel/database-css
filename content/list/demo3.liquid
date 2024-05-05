@@ -16,28 +16,37 @@ aside: true
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ html.name }}</title>
   <link rel="stylesheet" href="/assets/css/{{ html.name }}.css">
-  <link rel="stylesheet" href="/assets/css/ccolors.css">
+  <link rel="stylesheet" href="/assets/css/colors.css">
 </head>
 
 <body>
   <header>
     {% include 'nav-primary' %}
-    <h1>{{ site.name }}</h1>
+    <h1>{{ pagination.items[0].name | capitalize }} Framework</h1>
   </header>
   <main>
     {% if aside %}
     <aside>
+      <h3>This is aside</h3>
       {% include 'nav-secondary' %}
     </aside>
     {% endif %}
+    {% include 'pagination' %}
     <section aria-labelledby="{{ title | slugify }}">
       <h2 id="{{ title | slugify }}">{{ title }}</h2>
-      {% if description %}<p>{{ description }}</p>{% endif %}
-      {{ content }}
+      <p>This is a section HTML5 semantic element.</p>
     </section>
     <article>
-      <h3>Article One</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae fugit excepturi minima laborum, eos tempore doloribus quisquam soluta, quidem dicta optio! Dolor voluptates recusandae debitis pariatur iure maiores eum repellat.</p>
+      <h3>Article html5 semantic element</h3>
+      <ul>
+        <li>landmarks: {{ pagination.items[0].landmarks }}%</a></li>
+        <li>landmark elements: {{ pagination.items[0].landmarks-name }}</a></li>
+        <li>HTML elements: {{ pagination.items[0].html-elements }}%</a></li>
+        <li>primary navigation: {{ pagination.items[0].nav }}</a></li>
+        <li>CSS: <a href="/assets/css/{{ pagination.items[0].name }}.css">/assets/css/{{ pagination.items[0].name }}.css</a></li>
+        <li>website: <a href="{{ pagination.items[0].website }}">{{ pagination.items[0].website }}</a></li>
+        <li>GitHub: <a href="{{ pagination.items[0].github }}">{{ pagination.items[0].github }}</a></li>
+      </ul>
     </article>
   </main>
   <footer>

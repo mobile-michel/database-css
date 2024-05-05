@@ -11,7 +11,7 @@ Stylesheet in use: {{ css }}.
 - missing
 - gd
 - pico
-- holiday
+- holiday -> **to be analysed**
 - no-class
 - marx
 - tacit

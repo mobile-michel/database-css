@@ -11,13 +11,13 @@
     },
     {
         "name": "supestylin",
-        "category": "",
+        "category": "classless",
         "url": "https://superstylin.caiogondim.com/",
         "cdn": "https://raw.githubusercontent.com/caiogondim/superstylin/master/src/index.css",
         "landmarks": 0,
         "elements": 42,
         "content": "centered",
-        "interest": ""
+        "interest": 2
     },
     {
         "name": "generic",
@@ -184,10 +184,10 @@
         "category": "classless",
         "url": "https://newcss.net/",
         "cdn": "https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css",
-        "landmarks": 86,
+        "landmarks": 17,
         "elements": 65,
         "content": "centered",
-        "interest": 4
+        "interest": 2
     },
     {
         "name": "w3c-traditional",
@@ -558,5 +558,32 @@
         "github": "https://github.com/papercss/papercss",
         "demo": "https://materializecss.com/templates/starter-template/preview.html",
         "cdn": "https://unpkg.com/papercss@1.9.2/dist/paper.min.css"
+    },
+    {
+        "name": "lissom",
+        "website": "https://lissomware.github.io/css/",
+        "github": "https://github.com/lissomware/css",
+        "landmarks": 14,
+        "landmarks-name": "main",
+        "html-elements": 41,
+        "nav": false
+    },
+    {
+        "name": "water",
+        "website": "https://watercss.kognise.dev/",
+        "github": "https://github.com/kognise/water.css",
+        "landmarks": 14,
+        "landmarks-name": "footer",
+        "html-elements": 38,
+        "nav": false
+    },
+    {
+        "name": "clmaterial",
+        "website": false,
+        "github": "https://github.com/24aitor/CLMaterial",
+        "landmarks": 29,
+        "landmarks-name": "section, footer",
+        "html-elements": 35,
+        "nav": false
     }
 ]
