@@ -7,15 +7,19 @@ tags: [primary, footer]
 Stylesheet in use: {{ css }}.
 
 ## Best CSS Frameworks
-- ok
+- simple
+- pico
+- mvp
+- marx
+- magick
+- classless
+- awsm
+
+## Then...
+- tacit
 - missing
 - gd
-- pico
-- holiday -> **to be analysed**
-- no-class
-- marx
-- tacit
-- classless
-- simple
+
+## Finally...
+- writ
 - bahunya
-- mvp
