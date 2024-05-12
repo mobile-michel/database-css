@@ -19,159 +19,159 @@ const elements = [
 const cssFrameworks = [
   {
     "name": "a11yana",
-    "link": "/assets/css/a11yana.css"
+    "link": "/assets/css-reworked/a11yana.css"
 },
 {
     "name": "almond",
-    "link": "/assets/css/almond.css"
+    "link": "/assets/css-reworked/almond.css"
 },
 {
     "name": "awsm",
-    "link": "/assets/css/awsm.css"
+    "link": "/assets/css-reworked/awsm.css"
 },
 {
     "name": "axist",
-    "link": "/assets/css/axist.css"
+    "link": "/assets/css-reworked/axist.css"
 },
 {
     "name": "bahunya",
-    "link": "/assets/css/bahunya.css"
+    "link": "/assets/css-reworked/bahunya.css"
 },
 {
     "name": "bamboo",
-    "link": "/assets/css/bamboo.css"
+    "link": "/assets/css-reworked/bamboo.css"
 },
 {
     "name": "caramel",
-    "link": "/assets/css/caramel.css"
+    "link": "/assets/css-reworked/caramel.css"
 },
 {
     "name": "classless",
-    "link": "/assets/css/classless.css"
+    "link": "/assets/css-reworked/classless.css"
 },
 {
     "name": "clmaterial",
-    "link": "/assets/css/clmaterial.css"
+    "link": "/assets/css-reworked/clmaterial.css"
 },
 {
     "name": "concrete",
-    "link": "/assets/css/concrete.css"
+    "link": "/assets/css-reworked/concrete.css"
 },
 {
     "name": "gd",
-    "link": "/assets/css/gd.css"
+    "link": "/assets/css-reworked/gd.css"
 },
 {
     "name": "generic",
-    "link": "/assets/css/generic.css"
+    "link": "/assets/css-reworked/generic.css"
 },
 {
     "name": "github-markdown",
-    "link": "/assets/css/github-markdown.css"
+    "link": "/assets/css-reworked/github-markdown.css"
 },
 {
     "name": "holiday",
-    "link": "/assets/css/holiday.css"
+    "link": "/assets/css-reworked/holiday.css"
 },
 {
     "name": "latex",
-    "link": "/assets/css/latex.css"
+    "link": "/assets/css-reworked/latex.css"
 },
 {
     "name": "lissom",
-    "link": "/assets/css/lissom.css"
+    "link": "/assets/css-reworked/lissom.css"
 },
 {
     "name": "magick",
-    "link": "/assets/css/magick.css"
+    "link": "/assets/css-reworked/magick.css"
 },
 {
     "name": "marx",
-    "link": "/assets/css/marx.css"
+    "link": "/assets/css-reworked/marx.css"
 },
 {
     "name": "md-air",
-    "link": "/assets/css/md-air.css"
+    "link": "/assets/css-reworked/md-air.css"
 },
 {
     "name": "mercury",
-    "link": "/assets/css/mercury.css"
+    "link": "/assets/css-reworked/mercury.css"
 },
 {
     "name": "minimal-stylesheet",
-    "link": "/assets/css/minimal-stylesheet.css"
+    "link": "/assets/css-reworked/minimal-stylesheet.css"
 },
 {
     "name": "missing",
-    "link": "/assets/css/missing.css"
+    "link": "/assets/css-reworked/missing.css"
 },
 {
     "name": "mu",
-    "link": "/assets/css/mu.css"
+    "link": "/assets/css-reworked/mu.css"
 },
 {
     "name": "mvp",
-    "link": "/assets/css/mvp.css"
+    "link": "/assets/css-reworked/mvp.css"
 },
 {
     "name": "neat",
-    "link": "/assets/css/neat.css"
+    "link": "/assets/css-reworked/neat.css"
 },
 {
     "name": "new",
-    "link": "/assets/css/new.css"
+    "link": "/assets/css-reworked/new.css"
 },
 {
     "name": "no-class",
-    "link": "/assets/css/no-class.css"
+    "link": "/assets/css-reworked/no-class.css"
 },
 {
     "name": "ok",
-    "link": "/assets/css/ok.css"
+    "link": "/assets/css-reworked/ok.css"
 },
 {
     "name": "pico",
-    "link": "/assets/css/pico.css"
+    "link": "/assets/css-reworked/pico.css"
 },
 {
     "name": "sakura",
-    "link": "/assets/css/sakura.css"
+    "link": "/assets/css-reworked/sakura.css"
 },
 {
     "name": "silicon",
-    "link": "/assets/css/silicon.css"
+    "link": "/assets/css-reworked/silicon.css"
 },
 {
     "name": "simple",
-    "link": "/assets/css/simple.css"
+    "link": "/assets/css-reworked/simple.css"
 },
 {
     "name": "spcss",
-    "link": "/assets/css/spcss.css"
+    "link": "/assets/css-reworked/spcss.css"
 },
 {
     "name": "superstylin",
-    "link": "/assets/css/superstylin.css"
+    "link": "/assets/css-reworked/superstylin.css"
 },
 {
     "name": "tacit",
-    "link": "/assets/css/tacit.css"
+    "link": "/assets/css-reworked/tacit.css"
 },
 {
     "name": "vanilla",
-    "link": "/assets/css/vanilla.css"
+    "link": "/assets/css-reworked/vanilla.css"
 },
 {
     "name": "w3c-traditional",
-    "link": "/assets/css/w3c-traditional.css"
+    "link": "/assets/css-reworked/w3c-traditional.css"
 },
 {
     "name": "water",
-    "link": "/assets/css/water.css"
+    "link": "/assets/css-reworked/water.css"
 },
 {
     "name": "writ",
-    "link": "/assets/css/writ.css"
+    "link": "/assets/css-reworked/writ.css"
 }
 ];
 

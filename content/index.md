@@ -7,6 +7,7 @@ tags: [primary, footer]
 Stylesheet in use: {{ css }}.
 
 ## Best CSS Frameworks
+- missing (lot's of interesting things and classes !)
 - simple
 - pico
 - mvp
@@ -16,10 +17,6 @@ Stylesheet in use: {{ css }}.
 - awsm
 
 ## Then...
-- tacit
-- missing
 - gd
-
-## Finally...
 - writ
 - bahunya

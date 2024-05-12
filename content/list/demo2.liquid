@@ -14,7 +14,7 @@ permalink: list/demo2/{{ html.name | slug }}/index.html
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ html.name }}</title>
   <link rel="stylesheet" href="/assets/css/{{ html.name }}.css">
-  <link rel="stylesheet" href="/assets/css/ccolors.css">
+  <link rel="stylesheet" href="/assets/css/colors.css">
 </head>
 
 <body>
@@ -24,20 +24,6 @@ permalink: list/demo2/{{ html.name | slug }}/index.html
   </header>
   <main>
     <section aria-labelledby="{{ title | slugify }}">
-      <aside>
-        <header>
-          <h3>This is an aside</h3>
-        </header>
-        <nav aria-label="Secondary">
-          <ul>
-            <li><a href="{{ html.url | url }}">Website</a></li>
-            <li><a href="{{ html.github | url }}">Github</a></li>
-            <li><a href="{{ html.demo | url }}">Demo</a></li>
-            <li><a href="{{ html.doc | url }}">Doc</a></li>
-            <li><a href="{{ html.cdn | url }}">CDN</a></li>
-          </ul>
-        </nav>
-      </aside>
       {% include 'pagination' %}
       <h2 id="{{ title | slugify }}">{{ title }}</h2>
       <p>This is inside a <code>section</code> HTML element.</p>
@@ -45,6 +31,17 @@ permalink: list/demo2/{{ html.name | slug }}/index.html
       <p>This framework has {{ html.stars }} stars on Github.</p>
       <p>Version {{ html.version }} was published on {{ html.published | date: "%d %b %Y" }}.</p>
     </section>
+    <aside>
+      <header>
+        <h3>This is an aside</h3>
+      </header>
+      <nav aria-label="Secondary">
+        <ul>
+          <li><a href="{{ html.url | url }}">Website</a></li>
+          <li><a href="{{ html.github | url }}">Github</a></li>
+        </ul>
+      </nav>
+    </aside>
     <article>
       <h3>HTML elements</h3>
       <p>This is inside an <code>article</code> semantic HTML element</p>
@@ -53,13 +50,12 @@ permalink: list/demo2/{{ html.name | slug }}/index.html
         <li><strong>elements name</strong>: {{ html.landmarks-name }}</li>
         <li><strong>HTML elements</strong>: {{ html.html-elements }}%</li>
         <li><strong>stylesheet</strong>: <a href="/assets/css/{{ html.name }}.css" target="_blank">/assets/css/{{ html.name }}.css</a></li>
-        <li><strong>header</strong>: {{ html.header }}</li>
         <li><strong>primary navigation</strong>: {{ html.nav }}</li>
-        <li><strong>main content</strong>: {{ html.main }}</li>
-        <li><strong>aside</strong>: {{ html.aside }}</li>
-        <li><strong>section</strong>: {{ html.section }}</li>
-        <li><strong>article</strong>: {{ html.article }}</li>
-        <li><strong>footer</strong>: {{ html.footer }}</li>
+        <li><strong>centered content</strong>: {{ html.center }}</li>
+        <li><strong>display: grid</strong>: {{ html.grid }}</li>
+        <li><strong>display: flex</strong>: {{ html.flex }}</li>
+        <li><strong>float</strong>: {{ html.float }}</li>
+        <li><strong>remarks</strong>: {{ html.remarks }}</li>
       </ul>
     </article>
   </main>

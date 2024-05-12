@@ -16,25 +16,12 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
 }
-article,
-aside,
-footer,
-header,
-nav,
-section {
-  display: block
-}
 body {
   margin: 0
 }
 h1 {
   font-size: 2em;
   margin: .67em 0
-}
-figcaption,
-figure,
-main {
-  display: block
 }
 figure {
   margin: 1em 40px
@@ -215,10 +202,6 @@ textarea {
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   font: inherit
-}
-details,
-menu {
-  display: block
 }
 summary {
   display: list-item

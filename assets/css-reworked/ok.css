@@ -12,8 +12,10 @@
  */
 
 html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
 /* Sections
@@ -31,9 +33,6 @@ body {
  * Render the `main` element consistently in IE.
  */
 
-main {
-  display: block;
-}
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -54,9 +53,12 @@ h1 {
  */
 
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
 }
 
 /**
@@ -65,8 +67,10 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /* Text-level semantics
@@ -86,10 +90,13 @@ a {
  */
 
 abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
   -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted; /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
 }
 
 /**
@@ -109,8 +116,10 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /**
@@ -166,10 +175,14 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
 }
 
 /**
@@ -244,12 +257,18 @@ fieldset {
  */
 
 legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
 }
 
 /**
@@ -275,8 +294,10 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
 
 /**
@@ -294,8 +315,10 @@ textarea {
  */
 
 [type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /**
@@ -312,8 +335,10 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /* Interactive
@@ -323,9 +348,6 @@ textarea {
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
 
-details {
-  display: block;
-}
 
 /*
  * Add the correct display in all browsers.
@@ -377,24 +399,36 @@ template {
   --ok-fw-3: 700;
 
   /* font-size */
-  --ok-fs-0: 2.5rem; /* 40 */
-  --ok-fs-1: 2rem; /* 32 */
-  --ok-fs-2: 1.5rem; /* 24 */
-  --ok-fs-3: 1.25rem; /* 20 */
-  --ok-fs-4: 1rem; /* 16 */
-  --ok-fs-5: 0.75rem; /* 12 */
+  --ok-fs-0: 2.5rem;
+  /* 40 */
+  --ok-fs-1: 2rem;
+  /* 32 */
+  --ok-fs-2: 1.5rem;
+  /* 24 */
+  --ok-fs-3: 1.25rem;
+  /* 20 */
+  --ok-fs-4: 1rem;
+  /* 16 */
+  --ok-fs-5: 0.75rem;
+  /* 12 */
 
   /* border-radius */
   --ok-br: 0.25rem;
 
   /* spacing */
   --ok-s-0: 0;
-  --ok-s-1: 0.25rem; /* 4 */
-  --ok-s-2: 0.5rem; /* 8 */
-  --ok-s-3: 1rem; /* 16 */
-  --ok-s-4: 1.5rem; /* 24 */
-  --ok-s-5: 2rem; /* 32 */
-  --ok-s-6: 2.5rem; /* 40 */
+  --ok-s-1: 0.25rem;
+  /* 4 */
+  --ok-s-2: 0.5rem;
+  /* 8 */
+  --ok-s-3: 1rem;
+  /* 16 */
+  --ok-s-4: 1.5rem;
+  /* 24 */
+  --ok-s-5: 2rem;
+  /* 32 */
+  --ok-s-6: 2.5rem;
+  /* 40 */
 
   /* VARIABLES */
   /* ================================== */
@@ -515,19 +549,6 @@ button,
   cursor: pointer;
 }
 
-img,
-svg,
-video,
-canvas,
-audio,
-iframe,
-embed,
-object,
-input,
-select,
-textarea {
-  display: block;
-}
 
 img,
 video {
@@ -551,18 +572,23 @@ h1 {
   /* Remove margins added by normalize.css  */
   margin: 0;
 }
+
 h2 {
   font-size: var(--ok-fs-1);
 }
+
 h3 {
   font-size: var(--ok-fs-2);
 }
+
 h4 {
   font-size: var(--ok-fs-3);
 }
+
 h5 {
   font-size: var(--ok-fs-4);
 }
+
 h6 {
   font-size: var(--ok-fs-5);
   text-transform: uppercase;
@@ -581,13 +607,13 @@ h6 {
   margin-bottom: var(--ok-s-3);
 }
 
-h1 + *,
-h2 + *,
-h3 + *,
-h4 + *,
-h5 + *,
-h6 + *,
-hr + * {
+h1+*,
+h2+*,
+h3+*,
+h4+*,
+h5+*,
+h6+*,
+hr+* {
   margin-top: 0;
 }
 
@@ -609,88 +635,6 @@ dt {
 /* Add bottom margin to most block-level elements */
 /* https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements */
 
-address,
-article,
-aside,
-blockquote,
-details,
-dialog,
-dd,
-dl,
-div,
-fieldset,
-figcaption,
-figure,
-footer,
-form,
-header,
-hgroup,
-hr,
-/* li, ignored */
-main,
-nav,
-ol,
-p,
-pre,
-section,
-summary,
-table,
-ul,
-/* buttons and inputs */
-button,
-input,
-select,
-textarea,
-/* other elements */
-img,
-svg,
-video,
-canvas,
-audio,
-iframe,
-embed,
-object {
-  margin-bottom: var(--ok-s-4);
-}
-
-address:last-child,
-article:last-child,
-aside:last-child,
-blockquote:last-child,
-details:last-child,
-dialog:last-child,
-dd:last-child,
-div:last-child,
-dl:last-child,
-dt:last-child,
-fieldset:last-child,
-figcaption:last-child,
-figure:last-child,
-footer:last-child,
-form:last-child,
-h1:last-child,
-h2:last-child,
-h3:last-child,
-h4:last-child,
-h5:last-child,
-h6:last-child,
-header:last-child,
-hgroup:last-child,
-hr:last-child,
-main:last-child,
-nav:last-child,
-ol:last-child,
-p:last-child,
-pre:last-child,
-section:last-child,
-table:last-child,
-ul:last-child,
-
-/* inputs */
-input[type="checkbox"],
-input[type="radio"] {
-  margin-bottom: 0;
-}
 
 /* Input elements */
 
@@ -699,6 +643,7 @@ fieldset {
   border: var(--ok-b-0);
   border-radius: var(--ok-br);
 }
+
 legend {
   font-weight: var(--ok-fw-1);
   text-transform: uppercase;
@@ -938,6 +883,7 @@ input[type="range"]::-moz-range-thumb {
   width: 1.5rem;
   height: 1.5rem;
 }
+
 input[type="range"]::-ms-thumb {
   cursor: pointer;
   -ms-appearance: none;
@@ -980,6 +926,7 @@ input[type="range"]:disabled::-webkit-slider-thumb {
   background-color: var(--ok-bg-2);
   cursor: default;
 }
+
 input[type="range"]:disabled::-moz-range-thumb {
   background-color: var(--ok-bg-2);
   cursor: default;
@@ -1282,7 +1229,7 @@ margin-top instead of margin-bottom to add space when
 a <ul> or <ol> is added as a nested list.
 */
 li,
-li p + p {
+li p+p {
   margin-top: 0.5em;
 }
 
@@ -1299,11 +1246,11 @@ img {
   border-radius: var(--ok-br);
 }
 
-figure > img:not(:last-child) {
+figure>img:not(:last-child) {
   margin-bottom: var(--ok-s-1);
 }
 
-figure > figcaption {
+figure>figcaption {
   text-align: center;
 }
 

@@ -3,22 +3,23 @@ There are {{ stylesheet.size }} frameworks in this list
     <thead>
       <tr>
         <th>framework</th>
-        <th>html5</th>
-        <th>nav</th>
-        <th>header</th>
+        <th>demo 1</th>
+        <th>demo 2</th>
+        <th>demo 3</th>
         <th>main</th>
-        <th>footer</th>
+        <th>GitHub</th>
+        <th>CSS</th>
       </tr>
     </thead>
     {% assign items = css | sort: 'landmarks' | reverse %}
       {% for item in items %}
         <tr>
           <td><a href="{{ item.website | url }}" target="_new">{{ item.name }}</a></td>
-          <td><a href="/list/demo1/{{ item.name | slugify | url }}">{{item.landmarks}}%</a></td>
-          <td><a href="/list/demo3/{{ item.name | slugify | url }}">{{item.html-elements}}%</a></td>
-          <td>{{ item.landmarks-name }}</td>
+          <td><a href="/list/demo1/{{ item.name | slugify | url }}">link</a></td>
+          <td><a href="/list/demo2/{{ item.name | slugify | url }}">link</a></td>
+          <td><a href="/list/demo3/{{ item.name | slugify | url }}">link</a></td>
           <td>{{ item.nav }}</td>
-          <td><a href="{{ item.github }}" target="_new">github</a></td>
+          <td>{% if item.github %}<a href="{{ item.github }}" target="_new">github</a>{% endif %}</td>
           <td><a href="/assets/css/{{ item.name }}.css">CSS</a></td>
         </tr>
   {% endfor %}

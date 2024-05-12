@@ -988,10 +988,6 @@ th:is(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lan
     text-align: right
 }
 
-input {
-    display: block
-}
-
 label input:not([specificity-hack]) {
     padding-top: 0;
     padding-bottom: 0;

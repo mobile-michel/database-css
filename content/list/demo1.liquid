@@ -14,7 +14,7 @@ permalink: list/demo1/{{ html.name | slug }}/index.html
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ html.name }}</title>
   <link rel="stylesheet" href="/assets/css/{{ html.name }}.css">
-  <link rel="stylesheet" href="/assets/css/ccolors.css">
+  <link rel="stylesheet" href="/assets/css/colors.css">
 </head>
 
 <body>
@@ -32,9 +32,6 @@ permalink: list/demo1/{{ html.name | slug }}/index.html
           <ul>
             <li><a href="{{ html.url | url }}">Website</a></li>
             <li><a href="{{ html.github | url }}">Github</a></li>
-            <li><a href="{{ html.demo | url }}">Demo</a></li>
-            <li><a href="{{ html.doc | url }}">Doc</a></li>
-            <li><a href="{{ html.cdn | url }}">CDN</a></li>
           </ul>
         </nav>
       </aside>

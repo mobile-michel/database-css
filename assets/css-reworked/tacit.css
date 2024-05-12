@@ -77,11 +77,6 @@ table tr th {
     }
 }
 
-fieldset label,
-fieldset legend {
-    display: block
-}
-
 fieldset legend {
     margin: 1.125rem 0
 }
@@ -513,10 +508,6 @@ blockquote p {
 img {
     height: auto;
     margin: 0 auto
-}
-
-figure img {
-    display: block
 }
 
 @media (max-width:767px) {

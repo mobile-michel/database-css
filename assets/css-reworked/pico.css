@@ -545,10 +545,6 @@ body {
     margin: 0
 }
 
-main {
-    display: block
-}
-
 body>footer,
 body>header,
 body>main {
@@ -2171,19 +2167,8 @@ nav[aria-label=breadcrumb] a[aria-current]:not([aria-current=false]) {
     pointer-events: none
 }
 
-aside li,
-aside nav,
-aside ol,
-aside ul {
-    display: block
-}
-
 aside li {
     padding: calc(var(--pico-nav-element-spacing-vertical) * .5) var(--pico-nav-element-spacing-horizontal)
-}
-
-aside li a {
-    display: block
 }
 
 aside li [role=button] {

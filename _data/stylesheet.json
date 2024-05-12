@@ -6,7 +6,11 @@
         "landmarks": 100,
         "landmarks-name": "header, nav, main, aside, section, article, footer",
         "html-elements": 51,
-        "nav": "flat"
+        "nav": "flat",
+        "grid": false,
+        "flex": false,
+        "float": "img",
+        "center": "max-width + margin auto on header, main, article & footer"
     },
     {
         "name": "bahunya",
@@ -15,7 +19,11 @@
         "landmarks": 71,
         "landmarks-name": "nav, aside, section, article, footer",
         "html-elements": 57,
-        "nav": "top fixed"
+        "nav": "top fixed",
+        "grid": false,
+        "flex": "nav",
+        "float": "nav li + aside",
+        "center": "max-width + margin auto on body"
     },
     {
         "name": "classless",
@@ -24,7 +32,11 @@
         "landmarks": 100,
         "landmarks-name": "header, nav, main, aside, section, article, footer",
         "html-elements": 60,
-        "nav": "responsive top fixed"
+        "nav": "responsive top fixed",
+        "grid": false,
+        "flex": "class .row",
+        "float": "img + class .float",
+        "center": "max-width + margin auto on body"
     },
     {
         "name": "concrete",
@@ -33,7 +45,11 @@
         "landmarks": 57,
         "landmarks-name": "header, main, section, footer",
         "html-elements": 28,
-        "nav": false
+        "nav": false,
+        "grid": false,
+        "flex": false,
+        "float": false,
+        "center": "max-width + margin auto on main only"
     },
     {
         "name": "gd",
@@ -42,7 +58,11 @@
         "landmarks": 86,
         "landmarks-name": "header, nav, main, section, article, footer",
         "html-elements": 78,
-        "nav": "flat"
+        "nav": "flat",
+        "grid": "option on header & nav, mandatory on section",
+        "flex": "all nav's",
+        "float": "input + table td",
+        "center": "max-width + margin auto on header nav, main & article"
     },
     {
         "name": "holiday",
@@ -51,7 +71,12 @@
         "landmarks": 57,
         "landmarks-name": "header, nav, main, footer",
         "html-elements": 71,
-        "nav": "flat"
+        "nav": "flat",
+        "grid": false,
+        "flex": "body, nav & label",
+        "float": false,
+        "center": "max-width + margin auto on body",
+        "remarks": "footer at the bottom with main: flex-grow 1"
     },
     {
         "name": "magick",
@@ -60,7 +85,12 @@
         "landmarks": 100,
         "landmarks-name": "header, nav, main, aside, section, article, footer",
         "html-elements": 44,
-        "nav": "flat"
+        "nav": "flat",
+        "grid": "form only",
+        "flex": false,
+        "float": "aside & blockquote footer",
+        "center": "max-width + margin auto on main & article",
+        "remarks": ""
     },
     {
         "name": "marx",
@@ -69,7 +99,12 @@
         "landmarks": 100,
         "landmarks-name": "header, nav, main, aside, section, article, footer",
         "html-elements": 63,
-        "nav": "block"
+        "nav": "block",
+        "grid": false,
+        "flex": false,
+        "float": false,
+        "center": "max-width + margin auto on main only",
+        "remarks": ""
     },
     {
         "name": "missing",
@@ -78,7 +113,12 @@
         "landmarks": 86,
         "landmarks-name": "header, main, aside, section, footer",
         "html-elements": 77,
-        "nav": ".navbar class"
+        "nav": ".navbar class",
+        "grid": "lot's of classes",
+        "flex": "lot's of classes",
+        "float": "two classes",
+        "center": "max-width + margin auto on main, body>header + body>footer with calc padding",
+        "remarks": "framework with lot's of classes; interesting variables system"
     },
     {
         "name": "mvp",
@@ -87,7 +127,12 @@
         "landmarks": 100,
         "landmarks-name": "header, nav, main, aside, section, article, footer",
         "html-elements": 53,
-        "nav": "flat"
+        "nav": "flat",
+        "grid": false,
+        "flex": "nav + section",
+        "float": false,
+        "center": "max-width + margin auto on header, main & footer",
+        "remarks": "aside should be in section or article"
     },
     {
         "name": "no-class",
@@ -96,7 +141,12 @@
         "landmarks": 57,
         "landmarks-name": "header, nav, main, aside",
         "html-elements": 65,
-        "nav": "flat"
+        "nav": "flat",
+        "grid": false,
+        "flex": false,
+        "float": false,
+        "center": "max-width + margin auto on main only",
+        "remarks": ""
     },
     {
         "name": "pico",
@@ -105,7 +155,12 @@
         "landmarks": 100,
         "landmarks-name": "header, nav, main, aside, section, article, footer",
         "html-elements": 78,
-        "nav": "flat"
+        "nav": "flat",
+        "grid": false,
+        "flex": "nav ul + dialog",
+        "float": "details summary",
+        "center": "max-width + margin auto on body>header, body>main & body>footer",
+        "remarks": "lot's of variables and some components"
     },
     {
         "name": "simple",
@@ -114,22 +169,12 @@
         "landmarks": 100,
         "landmarks-name": "header, nav, main, aside, section, article, footer",
         "html-elements": 58,
-        "header": "full with blue background",
         "nav": "responsive buttons",
-        "main": "body display: grid",
-        "aside": "left with blue background",
-        "section": "bottom border",
-        "article": "card",
-        "footer": "centered with top border"
-    },
-    {
-        "name": "tacit",
-        "website": "https://yegor256.github.io/tacit/",
-        "github": "https://github.com/yegor256/tacit",
-        "landmarks": 86,
-        "landmarks-name": "header, nav, aside, section, article, footer",
-        "html-elements": 62,
-        "nav": "flat"
+        "grid": "on body",
+        "flex": "header nav ul",
+        "float": "aside",
+        "center": "grid-template-columns: 1fr min(45rem, 90%) 1fr on body + body > * grid-column: 2",
+        "remarks": "only framework with a grid system on body!"
     },
     {
         "name": "writ",
@@ -138,6 +183,11 @@
         "landmarks": 71,
         "landmarks-name": "header, nav, main, aside, footer",
         "html-elements": 41,
-        "nav": "flat"
+        "nav": "flat",
+        "grid": false,
+        "flex": false,
+        "float": "main aside + main figure",
+        "center": "max-width + margin auto on main + body>footer",
+        "remarks": ""
     }
 ]

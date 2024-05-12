@@ -83,10 +83,6 @@ hr {
 /*
 	Add correct display
 */
-main, /* (IE11) */
-details { /* (Edge 18-, IE) */
-	display: block;
-}
 
 summary { /* (all) */
 	display: list-item;
