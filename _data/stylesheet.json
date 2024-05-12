@@ -1,39 +1,21 @@
 [
     {
-        "name": "a11yana",
-        "website": "https://a11yana.com/",
-        "github": "https://github.com/alexandersandberg/a11yana",
-        "landmarks": 43,
-        "landmarks-name": "header, nav, main",
-        "html-elements": 55,
-        "nav": "block"
-    },
-    {
         "name": "awsm",
         "website": false,
         "github": "https://github.com/schollz/awsm.css",
         "landmarks": 100,
         "landmarks-name": "header, nav, main, aside, section, article, footer",
-        "html-elements": 52,
+        "html-elements": 51,
         "nav": "flat"
     },
     {
         "name": "bahunya",
         "website": "https://hakanalpay.com/bahunya/",
         "github": "https://github.com/kimeiga/bahunya",
-        "landmarks": 100,
-        "landmarks-name": "header, nav, main, aside, section, article, footer",
+        "landmarks": 71,
+        "landmarks-name": "nav, aside, section, article, footer",
         "html-elements": 57,
         "nav": "top fixed"
-    },
-    {
-        "name": "caramel",
-        "website": false,
-        "github": "https://github.com/caramelcss/caramel",
-        "landmarks": 57,
-        "landmarks-name": "header, nav, main, footer",
-        "html-elements": 48,
-        "nav": "flat"
     },
     {
         "name": "classless",
@@ -63,15 +45,6 @@
         "nav": "flat"
     },
     {
-        "name": "generic",
-        "website": "https://mattduck.github.io/generic-css/",
-        "github": "https://github.com/mattduck/generic-css",
-        "landmarks": 43,
-        "landmarks-name": "header, nav, main",
-        "html-elements": 43,
-        "nav": "block"
-    },
-    {
         "name": "holiday",
         "website": "https://holidaycss.js.org/",
         "github": "https://github.com/EvgenyOrekhov/holiday.css",
@@ -79,15 +52,6 @@
         "landmarks-name": "header, nav, main, footer",
         "html-elements": 71,
         "nav": "flat"
-    },
-    {
-        "name": "latex",
-        "website": "https://latex.vercel.app/",
-        "github": "https://github.com/vincentdoerig/latex-css",
-        "landmarks": 43,
-        "landmarks-name": "nav, main, article",
-        "html-elements": 43,
-        "nav": "block"
     },
     {
         "name": "magick",
@@ -129,18 +93,9 @@
         "name": "no-class",
         "website": "https://davidpaulsson.github.io/no-class/",
         "github": "https://github.com/davidpaulsson/no-class",
-        "landmarks": 100,
-        "landmarks-name": "header, nav, main, aside, section, article, footer",
-        "html-elements": 71,
-        "nav": "flat"
-    },
-    {
-        "name": "ok",
-        "website": "https://okcss.netlify.app/",
-        "github": "https://github.com/andrewh0/okcss",
-        "landmarks": 100,
-        "landmarks-name": "header, nav, main, aside, section, article, footer",
-        "html-elements": 84,
+        "landmarks": 57,
+        "landmarks-name": "header, nav, main, aside",
+        "html-elements": 65,
         "nav": "flat"
     },
     {
@@ -151,15 +106,6 @@
         "landmarks-name": "header, nav, main, aside, section, article, footer",
         "html-elements": 78,
         "nav": "flat"
-    },
-    {
-        "name": "silicon",
-        "website": "https://silicon-css.com/",
-        "github": "https://github.com/tygzy/silicon",
-        "landmarks": 43,
-        "landmarks-name": "nav, aside, footer",
-        "html-elements": 51,
-        "nav": "block"
     },
     {
         "name": "simple",
