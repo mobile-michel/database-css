@@ -2,7 +2,7 @@
 title: Third Demo
 description: This is the third demo with 8 ARIA landmarks
 pagination:
-  data: stylesheet
+  data: test
   size: 1
   alias: html
 permalink: list/demo3/{{ html.name | slug }}/index.html
@@ -27,8 +27,7 @@ aside: true
   <main>
     {% if aside %}
     <aside>
-      <h3>This is aside</h3>
-      {% include 'nav-secondary' %}
+      {% include 'secondary-links' %}
     </aside>
     {% endif %}
     {% include 'pagination' %}
@@ -38,15 +37,7 @@ aside: true
     </section>
     <article>
       <h3>Article html5 semantic element</h3>
-      <ul>
-        <li>landmarks: {{ pagination.items[0].landmarks }}%</a></li>
-        <li>landmark elements: {{ pagination.items[0].landmarks-name }}</a></li>
-        <li>HTML elements: {{ pagination.items[0].html-elements }}%</a></li>
-        <li>primary navigation: {{ pagination.items[0].nav }}</a></li>
-        <li>CSS: <a href="/assets/css/{{ pagination.items[0].name }}.css">/assets/css/{{ pagination.items[0].name }}.css</a></li>
-        <li>website: <a href="{{ pagination.items[0].website }}">{{ pagination.items[0].website }}</a></li>
-        <li>GitHub: <a href="{{ pagination.items[0].github }}">{{ pagination.items[0].github }}</a></li>
-      </ul>
+      {% include 'elements' %}
     </article>
   </main>
   <footer>

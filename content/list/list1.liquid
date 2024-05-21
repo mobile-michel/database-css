@@ -6,5 +6,5 @@ layout: default
 tags: [list, secondary]
 aside: true
 ---
-{% assign css = stylesheet %}
+{% assign css = stylesheet | sort: 'landmarks' | reverse %}
 {% include 'sort' %}

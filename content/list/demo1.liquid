@@ -1,5 +1,5 @@
 ---
-title: Demo
+title: Demo One
 pagination:
   data: stylesheet
   size: 1
@@ -14,7 +14,7 @@ permalink: list/demo1/{{ html.name | slug }}/index.html
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ html.name }}</title>
   <link rel="stylesheet" href="/assets/css/{{ html.name }}.css">
-  <link rel="stylesheet" href="/assets/css/colors.css">
+  <link rel="stylesheet" href="/assets/css/ccolors.css">
 </head>
 
 <body>
@@ -28,13 +28,7 @@ permalink: list/demo1/{{ html.name | slug }}/index.html
         <header>
           <h3>This is an aside</h3>
         </header>
-        <nav aria-label="Secondary">
-          <ul>
-            <li><a href="{{ html.url | url }}">Website</a></li>
-            <li><a href="{{ html.github | url }}">Github</a></li>
-            <li><a href="/assets/css/{{ html.name }}.css" target="_blank">CSS</a></li>
-          </ul>
-        </nav>
+          {% include 'secondary-links' %}
       </aside>
       {% include 'pagination' %}
       <h2 id="{{ title | slugify }}">{{ title }}</h2>

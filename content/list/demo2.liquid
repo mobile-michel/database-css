@@ -35,28 +35,12 @@ permalink: list/demo2/{{ html.name | slug }}/index.html
       <header>
         <h3>This is an aside</h3>
       </header>
-      <nav aria-label="Secondary">
-        <ul>
-          <li><a href="{{ html.url | url }}">Website</a></li>
-          <li><a href="{{ html.github | url }}">Github</a></li>
-        </ul>
-      </nav>
+        {% include 'secondary-links' %}
     </aside>
     <article>
       <h3>HTML elements</h3>
       <p>This is inside an <code>article</code> semantic HTML element</p>
-      <ul>
-        <li><strong>landmarks elements</strong>: {{ html.landmarks }}%</li>
-        <li><strong>elements name</strong>: {{ html.landmarks-name }}</li>
-        <li><strong>HTML elements</strong>: {{ html.html-elements }}%</li>
-        <li><strong>stylesheet</strong>: <a href="/assets/css/{{ html.name }}.css" target="_blank">/assets/css/{{ html.name }}.css</a></li>
-        <li><strong>primary navigation</strong>: {{ html.nav }}</li>
-        <li><strong>centered content</strong>: {{ html.center }}</li>
-        <li><strong>display: grid</strong>: {{ html.grid }}</li>
-        <li><strong>display: flex</strong>: {{ html.flex }}</li>
-        <li><strong>float</strong>: {{ html.float }}</li>
-        <li><strong>remarks</strong>: {{ html.remarks }}</li>
-      </ul>
+      {% include 'elements' %}
     </article>
   </main>
   <footer>

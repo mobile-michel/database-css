@@ -6,17 +6,18 @@ tags: [primary, footer]
 ---
 Stylesheet in use: {{ css }}.
 
-## Best CSS Frameworks
-- missing (lot's of interesting things and classes !)
-- simple
-- pico
-- mvp
-- marx
-- magick
-- classless
-- awsm
+### Best frameworks
 
-## Then...
-- gd
-- writ
-- bahunya
+{%- for item in stylesheet %}
+{%- if item.landmarks > 80 %}
+- [{{ item.name }}]({{ item.website }}): {{ item.remarks }}
+{%- endif %}
+{%- endfor %}
+
+### Then...
+
+{%- for item in stylesheet %}
+{%- if item.landmarks < 80 %}
+- [{{ item.name }}]({{ item.website }}): {{ item.remarks }}
+{%- endif %}
+{%- endfor %}

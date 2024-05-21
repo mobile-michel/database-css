@@ -8,5 +8,5 @@ aside: true
 eleventycomputed:
   link: '/assets/css/ {{item.name}} .css'
 ---
-{% assign css = stylesheet %}
-{% include 'sort1' %}
+{% assign css = stylesheet | sort: 'html-elements' | reverse %}
+{% include 'sort' %}
