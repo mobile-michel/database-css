@@ -1,7 +1,7 @@
 ---
 title: Home
 date: 2024-01-01
-layout: complete
+layout: default
 tags: [primary, footer]
 ---
 Stylesheet in use: {{ css }}.

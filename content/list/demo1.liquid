@@ -32,6 +32,7 @@ permalink: list/demo1/{{ html.name | slug }}/index.html
           <ul>
             <li><a href="{{ html.url | url }}">Website</a></li>
             <li><a href="{{ html.github | url }}">Github</a></li>
+            <li><a href="/assets/css/{{ html.name }}.css" target="_blank">CSS</a></li>
           </ul>
         </nav>
       </aside>
@@ -45,18 +46,7 @@ permalink: list/demo1/{{ html.name | slug }}/index.html
     <article>
       <h3>HTML elements</h3>
       <p>This is inside an <code>article</code> semantic HTML element</p>
-      <ul>
-        <li><strong>section elements</strong>: {{ html.landmarks }}%</li>
-        <li><strong>elements name</strong>: {{ html.landmarks-name }}</li>
-        <li><strong>stylesheet</strong>: <a href="/assets/css/{{ html.name }}.css" target="_blank">/assets/css/{{ html.name }}.css</a></li>
-        <li><strong>header</strong>: {{ html.header }}</li>
-        <li><strong>primary navigation</strong>: {{ html.nav }}</li>
-        <li><strong>main content</strong>: {{ html.main }}</li>
-        <li><strong>aside</strong>: {{ html.aside }}</li>
-        <li><strong>section</strong>: {{ html.section }}</li>
-        <li><strong>article</strong>: {{ html.article }}</li>
-        <li><strong>footer</strong>: {{ html.footer }}</li>
-      </ul>
+      {% include 'elements' %}
     </article>
   </main>
   <footer>

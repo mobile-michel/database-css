@@ -4,23 +4,25 @@ There are {{ stylesheet.size }} frameworks in this list
       <tr>
         <th>framework</th>
         <th>landmarks</th>
+        <th>names</th>
         <th>elements</th>
-        <th>landmark names</th>
+        <th>grid</th>
+        <th>flex</th>
         <th>nav</th>
-        <th>Github</th>
-        <th>CSS</th>
+        <th>links</th>
       </tr>
     </thead>
     {% assign items = css | sort: 'landmarks' | reverse %}
       {% for item in items %}
         <tr>
-          <td><a href="{{ item.website | url }}" target="_new">{{ item.name }}</a><br><a href="/list/demo1/{{ item.name | slugify | url }}">demo1</a> <a href="/list/demo2/{{ item.name | slugify | url }}">demo2</a> <a href="/list/demo3/{{ item.name | slugify | url }}">demo3</a></td>
-          <td>{{item.landmarks}}%</td>
-          <td>{{item.html-elements}}%</td>
+          <td><a href="/list/demo1/{{ item.name | slugify | url }}">{{ item.name }}&nbsp;1</a><br><a href="/list/demo2/{{ item.name | slugify | url }}">{{ item.name }} 2</a><br><a href="/list/demo3/{{ item.name | slugify | url }}">{{ item.name }} 3</a></td>
+          <td>{{ item.landmarks }}%</td>
           <td>{{ item.landmarks-name }}</td>
+          <td>{{ item.html-elements }}%</td>
+          <td>{{ item.grid }}</td>
+          <td>{{ item.flex }}</td>
           <td>{{ item.nav }}</td>
-          <td><a href="{{ item.github }}" target="_new">github</a></td>
-          <td><a href="/assets/css/{{ item.name }}.css">CSS</a></td>
+          <td><a href="{{ item.website | url }}" target="_new">website</a><br><a href="{{ item.github }}" target="_new">github</a><br><a href="/assets/css/{{ item.name }}.css">CSS</a></td>
         </tr>
   {% endfor %}
   </table>
